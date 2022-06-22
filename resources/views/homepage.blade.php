@@ -13,13 +13,15 @@
 
 <header class="d-flex">
 
+
+
     @foreach ($menu as $item)
 
     <ul class="nav">
 
         <li class="nav-item">
 
-            <a class="nav-link active" aria-current="page" href="{{$item}}">{{$item}}</a>
+            <a class="nav-link active" aria-current="page" href="{{route($item)}}">{{$item}}</a>
 
         </li>
 

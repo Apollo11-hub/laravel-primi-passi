@@ -23,7 +23,7 @@ Route::get('/home', function () {
     ];
 
     return view('homepage' , $data);
-})->name('homepage');
+})->name('home');
 
 Route::get('/about',function(){
 
